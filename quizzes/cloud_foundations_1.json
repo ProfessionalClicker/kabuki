@@ -1,0 +1,170 @@
+{
+	"quiz_id":"4",
+	"name":"AWS Cloud Foundations 1",
+	"description":"Assortment of AWS questions",
+	"image":null,
+	"questions":[
+		{
+			"prompt":"Why is AWS more economical than traditional data centers for applications with varying computer workloads?",
+			"image":null,
+			"type":"multiple_choice",
+			"choices":[
+				"Amazon EC2 costs are billed on a monthly basis", 
+				"Customer retain full administrative access to their Amazon EC2 instances", 
+				"Amazon EC2 instances can be launched on-demand when needed", 
+				"Customer can permanently run enough instances to handle peak workloads"
+			],
+			"answer":"Amazon EC2 instances can be launched on-demand when needed",
+			"time_limit":30,
+			"points":1000
+		},
+		{
+			"prompt":"Which AWS service would simplify migration of a database to AWS?",
+			"image":null,
+			"type":"multiple_choice",
+			"choices":[
+				"AWS Storage Gateways", 
+				"AWS Database Migration Service (AWS DMS)", 
+				"Amazon Elastic Compute Cloud (Amazon EC2)", 
+				"Amazon AppStream 2.0"
+			],
+			"answer":"AWS Database Migration Service (AWS DMS)",
+			"time_limit":30,
+			"points":1000
+		},
+		{
+			"prompt":"Which two of the following are AWS's responsibilities under the AWS shared responsibility model?",
+			"image":null,
+			"type":"select_two",
+			"choices":[
+				"Configuring third-party applications", 
+				"Maintaining the physical hardware", 
+				"Securing application access and data", 
+				"Managing customer Amazon Machine Images (AMIs)",
+				"Security in the cloud",
+				"Security of the cloud",
+				"Security in and of the cloud"
+			],
+			"answer":[
+				"Maintaining the physical hardware",
+				"Security of the cloud"
+			],
+			"time_limit":30,
+			"points":1000
+		},
+		{
+			"prompt":"Which component of AWS global infrastructure does Amazon CloudFront use to ensure low-latency delivery?",
+			"image":null,
+			"type":"multiple_choice",
+			"choices":[
+				"AWS regions", 
+				"AWS edge locations", 
+				"AWS Availability Zones (AZs)", 
+				"Amazon Virtual Private Cloud (VPC)"
+			],
+			"answer":"AWS edge locations",
+			"time_limit":30,
+			"points":1000
+		},
+		{
+			"prompt":"Which service can identify the user that made the API call when an Amazon Elastic Compute Cloud (EC2) instance is terminated?",
+			"image":null,
+			"type":"multiple_choice",
+			"choices":[
+				"Amazon CloudWatch", 
+				"AWS CloudTrail", 
+				"Amazon GuardDuty", 
+				"AWS IAM"
+			],
+			"answer":"AWS CloudTrail",
+			"time_limit":30,
+			"points":1000
+		},
+		{
+			"prompt":"What kind of service is provided by AWS DynamoDB?",
+			"image":null,
+			"type":"custom_answer",
+			"choices":null,
+			"answer":[
+				"NoSQL",
+				"No-SQL",
+				"No SQL",
+				"NoSQL database",
+				"No SQL database",
+				"nonrelational database",
+				"non-relational database",
+				"non relational database",
+				"key-value database",
+				"key value database"
+			],
+			"time_limit":30,
+			"points":1000
+		},
+		{
+			"prompt":"Which two of the following are benefits of AWS Organizations?",
+			"image":null,
+			"type":"select_two",
+			"choices":[
+				"Centrally manage access policies across multiple AWS accounts", 
+				"Automate AWS account creation and management",
+				"Analyze cost across all AWS accounts",
+				"Provide technical help for issues in the account"
+			],
+			"answer":[
+				"Centrally manage access policies across multiple AWS accounts",
+				"Automate AWS account creation and management"
+			],
+			"time_limit":30,
+			"points":1000
+		},
+		{
+			"prompt":"An organization has been using AWS for a few months. The finance team wants to visualize the pattern of spending. Which tool will help?",
+			"image":null,
+			"type":"multiple_choice",
+			"choices":[
+				"AWS Budgets", 
+				"AWS Cost Explorer", 
+				"AWS CloudWatch", 
+				"AWS Consolidated Billing"
+			],
+			"answer":"AWS Cost Explorer",
+			"time_limit":30,
+			"points":1000
+		},
+		{
+			"prompt":"Which S3 storage class has the lowest object availability rating of the options below?",
+			"image":null,
+			"type":"multiple_choice",
+			"choices":[
+				"S3 Standard", 
+				"S3 Standard-IA", 
+				"S3 One Zone-IA", 
+				"S3 Intelligent-Tiering"
+			],
+			"answer":"S3 One Zone-IA",
+			"time_limit":30,
+			"points":1000
+		},
+		{
+			"prompt":"What service allows you to have your own private network in the AWS cloud?",
+			"image":null,
+			"type":"custom_answer",
+			"choices":null,
+			"answer":[
+				"VPC",
+				"Virtual Private Cloud",
+				"VirtualPrivateCloud",
+				"Amazon VPC",
+				"AWS VPC",
+				"AWS VPC service",
+				"VPC service",
+				"Amazon Virtual Private Cloud",
+				"Virtual Private Cloud service",
+				"Amazon Virtual Private Cloud service"
+			],
+			"time_limit":30,
+			"points":1000
+		}
+	]
+}
+
